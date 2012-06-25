@@ -1,0 +1,30 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
+<script type="text/jscript" src="js/fileOps.js"></script>
+<!-- <link  rel="stylesheet" type="text/css" href="css/style.css"></link> -->
+<div data-bb-type="screen" data-bb-title="BlackBerry File Operatons" data-bb-effect="fade">
+	<div data-bb-type="title" data-bb-caption="BlackBerry File Operatons"></div>
+	<center>
+		<br>
+		<br>
+		<img src="images/saveDoc.png" onclick="bbfileIO.fileSave()" >
+		<img src="images/readDoc.png" onclick="bbfileIO.fileRead()"> 
+		<img src="images/deleteDoc.png" onclick="bbfileIO.fileDelete()">
+		<br>
+		<br>	
+	</center>
+	<div id="status-bar">	
+		<div id="status-bar-text">
+			Status
+		</div>
+	</div>
+	<div data-bb-type="menu">
+        <div data-bb-type="menu-separator"></div>
+        <div data-bb-type="menu-item" data-bb-caption="Create & Save" onclick="bbfileIO.fileSave();"</div> <!-- data-bb-selected="true">Bar</div> -->
+        <div data-bb-type="menu-item" data-bb-caption="Read File" onclick="bbfileIO.fileRead();"</div>
+        <div data-bb-type="menu-item" data-bb-caption="Delete File" onclick="bbfileIO.fileDelete();"</div>
+        <div data-bb-type="menu-separator"></div>
+    </div>
+    <div data-bb-type="image-list" data-bb-context="true">
+    	
+    </div>
+</div>

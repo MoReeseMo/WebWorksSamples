@@ -1,0 +1,16 @@
+#status-bar{
+	/*position: fixed;
+		  right: 0;
+		  top: 95%;
+		  width: 30em;
+		  margin-top: -2.5em;*/
+	background-color: white;
+}
+
+#status-bar-text{
+	/*float: left;*/ 
+	margin: 12px 0 0  20px; 
+	/*text-align: center;*/
+}
+
+

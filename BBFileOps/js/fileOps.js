@@ -17,7 +17,7 @@ bbfileIO = {
 		                
 			//console.log ('checking if file does Exist: ' + this.filePath);	                
 		  	if (blackberry.io.file.exists(this.filePath)) {
-		  		alert ('File Creafffted ffand Saved ' + this.filePath);
+		  		alert ('File Created and Saved ' + this.filePath);
 		  		document.getElementById("status-bar-text").innerHTML = 'Created and saved ' + this.filePath; 
 		  		//statu.innerHTML += "<br>"
 		  	}
